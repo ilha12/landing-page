@@ -1,0 +1,146 @@
+/* ... (unchanged styles) */
+
+#features ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#features img {
+    max-width: 100%;
+    height: auto;
+}
+
+#features li {
+    text-align: center;
+    flex: 0 1 30%;
+}
+
+#contact form {
+    max-width: 400px;
+    margin: auto;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, section, footer {
+    padding: 20px;
+}
+
+header {
+    background-color:palevioletred;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+#main-content {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#features {
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#contact {
+    background-color: #f4f4f4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+footer {
+    background-color: palevioletred;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* ... (existing styles) */
+
+#contact form {
+    max-width: 400px;
+    margin: auto;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* ... (existing styles) */
+
+#contact form {
+    max-width: 400px;
+    margin: auto;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+#contact form input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact form input[type="submit"]:hover {
+    background-color: #555;
+}
